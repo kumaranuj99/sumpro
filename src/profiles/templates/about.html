@@ -1,0 +1,55 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+<head><h1><strong><emp> UbuyFashion.com </emp></strong></h1></head>
+{% block styles %}
+<style>
+
+body{background-color:orange;}
+.jumbotron {
+    font:italic 13px mono;
+    text-align: center;
+    background-color:rgb(0,208,328);	
+}
+</style>
+{% endblock %}
+
+
+
+{% block jumbotron%}
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1><strong<emp>THE UbuyFashion STORY</emp></strong></h1>
+        <h3><strong<emp> STARTS!!!</emp></strong></h3>
+	<h3><strong<emp> JULY 12 , 2018</emp></strong></h3>
+        <h3><strong>WHY WE ARE INDIA'S LEADING CHEAPEST STORE</strong></h3>
+      </div>
+{% endblock %}
+
+{% block content %}
+<div class ="container-fluid">	
+<div class="row">
+
+
+	 <a href="#"><img src="{% static 'img/ecomm.jpg' %}" class='img-responsive'/></a>
+         
+        </div>
+<style>
+
+body{background-color:orange;}
+.jumbotron {
+    font:italic 13px mono;
+    text-align: center;
+    background-color:rgb(100,208,328);	
+}
+</style>
+
+<div class="jumbotron">
+	
+        <h1><strong<emp>The Idea of Rescheduling your budget is Arrived Now.</emp></strong></h1>
+        <h3><strong<emp>Whole Concept is made by the team of IIC. </emp></strong></h3>
+	<h3><strong<emp> COME.EXPLORE.HAPPY.BUY!!!</emp></strong></h3>
+        <h3><strong>THANK-YOU</strong></h3>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+Include/
+Lib/
+local/
+Scripts/
+share/
+tcl/
+venv/
